@@ -2,7 +2,6 @@
 
 define([
     'underscore',
-    // 'backbone',
     'backboneDualstorage',
     'models/tweet',
     'lib/fakeStorage',

@@ -41,6 +41,4 @@ require([
 
     var app = new AppView({collection: tweets});
 
-    // for debugging.
-    window.app = app;
 });
