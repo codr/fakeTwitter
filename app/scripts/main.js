@@ -39,6 +39,6 @@ require([
 
     var tweets = new TweetsCollection();
 
-    var app = new AppView({collection: tweets});
+    new AppView({collection: tweets});
 
 });
