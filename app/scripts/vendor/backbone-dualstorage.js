@@ -7,7 +7,10 @@ as that.
 */
 
 
-(function() {
+define([
+  'underscore',
+  'backbone'
+], function(_, Backbone) {
   var S4, backboneSync, callbackTranslator, dualsync, localsync, onlineSync, parseRemoteResponse, result;
 
   Backbone.Collection.prototype.syncDirty = function() {
@@ -385,4 +388,6 @@ as that.
 
   Backbone.sync = dualsync;
 
-}).call(this);
+  return Backbone;
+
+});

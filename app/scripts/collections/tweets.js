@@ -2,9 +2,10 @@
 
 define([
     'underscore',
-    'backboneDualstorage',
+    'backbone',
     'models/tweet',
     'lib/fakeStorage',
+    'vendor/backbone-dualstorage',
 ], function (_, Backbone, TweetModel, FakeStorage) {
     'use strict';
 
