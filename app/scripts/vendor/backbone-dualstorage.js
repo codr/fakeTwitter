@@ -9,7 +9,8 @@ as that.
 
 define([
   'underscore',
-  'backbone'
+  'backbone',
+  'lib/fakeStorage'  // work around for GH issue #1
 ], function(_, Backbone) {
   var S4, backboneSync, callbackTranslator, dualsync, localsync, onlineSync, parseRemoteResponse, result;
 

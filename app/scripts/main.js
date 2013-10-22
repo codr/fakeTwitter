@@ -17,17 +17,13 @@ require.config({
             deps: ['jquery'],
             exports: 'jquery'
         },
-        // backboneDualstorage: {
-        //     deps: ['underscore', 'backbone'],
-        //     exports: 'Backbone'
-        // }
     },
     paths: {
         jquery: '../bower_components/jquery/jquery',
         backbone: '../bower_components/backbone/backbone',
         underscore: '../bower_components/underscore/underscore',
         bootstrap: 'vendor/bootstrap',
-        // backboneDualstorage: 'vendor/backbone-dualstorage'
+        backboneDualstorage: 'vendor/backbone-dualstorage'
     }
 });
 
