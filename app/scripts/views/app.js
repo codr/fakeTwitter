@@ -26,7 +26,6 @@ define([
             this.listenTo(this.collection, 'add', this.addOne);
             this.listenTo(this.collection, 'change:votes', this.reorder);
             this.listenTo(this.collection, 'sort', this.render);
-            // this.listenTo(this.collection, 'all', function() {console.log(arguments);});
 
             this.collection.fetch({
                 remote: false,

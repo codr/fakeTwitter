@@ -13,13 +13,15 @@ define([
         tagName: 'div',
 
         events: {
-            'click .vote': 'vote',
+            'click .vote':  'vote',
+            'click .close': 'destroy',
         },
 
         template: JST['app/scripts/templates/tweet.ejs'],
 
         initialize: function() {
             this.listenTo(this.model, 'change', this.render);
+            this.listenTo(this.model, 'destroy', this.remove);
         },
 
         render: function() {
@@ -29,7 +31,11 @@ define([
 
         vote: function() {
             this.model.vote();
-        }
+        },
+
+        destroy: function() {
+            this.model.destroy();
+        },
     });
 
     return TweetView;
