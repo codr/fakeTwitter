@@ -9,5 +9,5 @@ View the app here: http://codr.github.io/fakeTwitter/
 
 
 
-TODO:
-    - there seem to be a race condition on dev where the app ignore localStorage and builds new data. I believe this is related to `collections/tweet.js` and how it uses `vendor/backbone-dualstorage`
+#### TODO
+ - there seem to be a race condition on dev where the app ignore localStorage and builds new data. I believe this is related to `collections/tweet.js` and how it uses `vendor/backbone-dualstorage`
