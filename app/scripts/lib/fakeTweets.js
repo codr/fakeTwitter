@@ -14,10 +14,6 @@ define(function(){
 
         '<script>alert(\'Malicious script. You\'ve been had.);</script>',
 
-        // '"This is NPR." Yeah, we know. You just spent the past 4 minutes whispering the news over a jazz saxophone solo.',
-        // 'If I had a time machine I'd go back and give myself a bunch of incorrect lotto numbers, and teach myself the value of hard work.',
-        // 'Dear lady, $14 is crazy for an airport sandwich but complaining to the counter guy is like telling a cop to pull troops out of Afghanistan.',
-        // 'Welcome to hipster fights. You can ironically hang your scarves over there. There's PBR and tacos in the food truck. Don't enjoy yourself.',
     ];
 
     function getRandomTweet() {
